@@ -1,0 +1,91 @@
+
+#homepage-description {
+  animation: image-float-down 3s;
+}
+
+.title {
+  animation: image-float-down 3s;
+}
+
+.subheader {
+  animation: image-float-down 3s;
+}
+
+header {
+  animation: fade-in 3s;
+}
+
+#recents-title {
+  animation: fade-in 3s;
+}
+
+#about-text {
+  animation: about-text-move  3s;
+}
+
+.about-img {
+  animation: image-float-down 3s;
+}
+
+.featured-project {
+  animation: image-float-down 3s;
+}
+
+.project-artifacts {
+  animation: image-float-down 3s;
+}
+
+.project-listing{
+  animation: image-float-down 3s;
+}
+
+.project-image {
+  animation: image-float-down 3s;
+}
+
+.project-description-text {
+  animation: fade-in 3s;
+}
+
+.project-description {
+  animation: image-float-down 5s;
+}
+
+#contact-text {
+  animation: image-float-down 3s;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes image-float-down {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes about-text-move {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+    left: 50%;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    left: 100%;
+  }
+}

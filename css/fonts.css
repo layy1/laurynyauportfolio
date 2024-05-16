@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Manrope-Light';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Manrope-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Manrope-Medium';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Manrope-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Westbourne-Italic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Westbourne-Serif-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Westbourne-Regular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Westbourne-Serif-Regular.ttf') format('truetype');
+}
