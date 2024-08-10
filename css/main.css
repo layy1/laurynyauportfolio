@@ -41,7 +41,7 @@ section {
 .subheader {
   text-align: center;
   color: #344EAD;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
   margin-top: -6rem;
   min-width: 15rem;
   font-size: 0.8rem;
@@ -72,7 +72,8 @@ section {
 }
 
 .img-cap{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    text-align:center;
 }
 
 h1 {
@@ -94,11 +95,11 @@ i {
 }
 
 h3 {
-  font-family: "Manrope-Medium";
+  font-family: "Manrope-Light";
 }
 
 h4 {
-  font-family: "Manrope-Medium";
+  font-family: "Manrope-Light";
 }
 
  p {
@@ -116,6 +117,10 @@ mark {
   background-color: #EEE;
   padding: 0.5em 0.75em;
   display: block;
+}
+
+iframe {
+  margin-left: 4%;
 }
 
 
@@ -311,52 +316,115 @@ li {
 /*
   COMBINED ELEMENTS -------------------
 */
-.project-description {
-  text-align: center;
+
+.project-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 4rem;
+}
+
+.project-header {
+  text-align: left;
   margin-top: 5rem;
+  margin-left: ;
 }
 
 .project-description-text {
-  max-width: 60rem;
+  max-width: 80rem;
   text-align: left;
-  margin-left: 15%;
-  margin-right: 15%;
+  /* margin-left: 3%;
+  margin-right: 3%; */
 }
 
 .project-artifacts {
   margin-bottom: 1rem;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 70%;
-  max-height: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  max-height: 40%;
 }
 .project-image {
-  margin-bottom: 4rem;
-  margin-top: 2rem;
-  margin-left: 10%;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 0%;
   margin-right: 10%;
-  max-width: 80%;
-  max-height: 60%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-listing-container {
+  display: grid;
+  flex-wrap: wrap;
+  margin-left: -10rem;
+  margin-right: -10rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  align-self: center;
 }
 
 .project-listing {
-  margin-top: 2rem;
+  /* margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-content: center; */
 }
 
 .project-listing-item {
   /* align-items: center; */
-  margin: 1rem;
-  width: 30rem;
+  /* margin: 1rem; */
+  /* width: 30rem; */
+}
+
+.column {
+ display: inline-flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ flex-basis: 100%;
+ flex: 1;
+ margin-left: -0.2rem;
+ margin-bottom: -0.2rem;
+ /* margin: 0.5rem;   */
+ display: grid;
+  flex-wrap: wrap;
+  align-items: center;
+ border: 0.2rem solid #344EAD;
+ padding: 1rem;
+ padding-bottom: 1.5rem;
+}
+
+.row {
+ display: inline-grid;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 100%;
+ align-items: center;
+}
+
+.project-details-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.detail-head {
+  display: inline-block;
+  width: 6rem;
+  max-width:6rem;
+}
+
+.detail-text {
+  display: inline-block;
+  max-width: 60rem;
+}
+
+.analysis-title {
+  margin-bottom: 0.25rem;
 }
 
 .project-list-image {
   /* width: 30rem;
   height: 20rem; */
-  margin-left: -1rem;
   display: flex;
 }
 
@@ -404,44 +472,91 @@ li {
   margin-left: 4rem;
 }
 
-#project-title {
-  max-width: 70rem;
-  margin-top: 1.7rem;
+.project-title {
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
 }
 
-#project-date {
-  margin-top: -0.5rem;
+.project-date {
+  font-family: "Manrope-Regular";
 }
 
-#project-desc {
-  margin-top: -1rem;
+.project-subheader {
+  font-family: "Manrope-Regular";
 }
 
-#project-list-bottom-row {
+.project-list-bottom-row {
   display: flex;
   flex-direction: row;
 }
 
-#project-tag {
-  margin-top: 10rem;
-  width: 60rem;
+.project-list-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-#project-tag-captured{
-  margin-top: 11.5rem;
-  width: 65rem;
+.top-row-space {
+
 }
+
+#HTMLCSS-tag{
+  width: 16rem;
+}
+
+#UXUI-tag{
+  width: 18rem;
+}
+
+#UXUI-tag-wider{
+  width: 21rem;
+}
+
+#FILM-tag{
+  width: 12rem;
+}
+
+#MARKETING-tag {
+  width:8rem;
+}
+
+.project-tag {
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 0.15rem solid #344EAD;
+  border-radius: 1rem;
+  font-family: "Manrope-Regular";
+  /* color: #344EAD; */
+}
+
+.feature-project-tag {
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 0.15rem solid #344EAD;
+  border-radius: 1rem;
+  font-family: "Manrope-Regular";
+  /* color: #344EAD; */
+}
+
+#feature-HTMLCSS-tag {
+  max-width: 5rem;
+}
+
+#feature-UXUI-tag {
+  max-width: 3rem;
+}
+
 
 #view-project-button {
-  margin-left: 10rem;
-  margin-top: 10rem;
-  min-width: 10rem;
   width: 10rem;
+  padding: 0.2rem;
 }
 
 #recents-title {
   text-align: center;
-  font-family: "Manrope-Medium";
 }
 
 #view-all-proj {
@@ -492,6 +607,44 @@ li {
   flex-direction: row;
 }
 
+#agewell-web {
+  margin-left: 35%;
+  width:30%;
+  height: 30%;
+}
+
+@media screen and (max-width: 60rem) {
+  .product-listing {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 10rem) {
+  .row{
+    grid-template-columns: 1fr;
+  }
+
+  .project-details-row {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 49rem) {
+  .row{
+    grid-template-columns: 1fr 1fr;
+  }
+  .project-details-row {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 90rem) {
+  .row{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
 @media screen and (max-width: 1080px) {
 
   header {
@@ -503,9 +656,8 @@ li {
     align-items: center;
   }
 
-  .project-listing {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  /* .project-listing {
+
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -516,13 +668,13 @@ li {
     max-width: 15rem;
   }
 
-  #project-tag {
+  .project-tag {
     margin-top: 1rem;
-  }
+  } */
 
   #view-project-button {
-    margin-left: 4rem;
-    margin-top: 0.5rem;
+    /* margin-left: 4rem;
+    margin-top: 0.5rem; */
 
   }
 

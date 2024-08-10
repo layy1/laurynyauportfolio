@@ -43,6 +43,10 @@ header {
   animation: image-float-down 3s;
 }
 
+.column {
+  animation: fade-in 3s;
+}
+
 .project-description-text {
   animation: fade-in 3s;
 }

@@ -6,6 +6,13 @@
 }
 
 @font-face {
+	font-family: 'Manrope-Regular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'Manrope-Medium';
 	font-weight: normal;
 	font-style: normal;
